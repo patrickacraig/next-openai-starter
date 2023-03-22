@@ -1,6 +1,6 @@
 # Next.js OpenAI Starter App
 
-This is a starter kit for integrating [OpenAI's API](https://platform.openai.com/docs/api-reference) into a [Next.js](https://nextjs.org/) project. It is crafted with minimal styling and basic API integration so you can strip it and bring your own libraries to make it your own. Feel free to fork and create something amazing!
+This is a starter kit for integrating [OpenAI's API](https://platform.openai.com/docs/api-reference) into a [Next.js](https://nextjs.org/) application. It is crafted with minimal styling and basic API integration so you can strip it and bring your own libraries to make it your own. Feel free to fork and create something amazing!
 
 
 ## Getting Started
