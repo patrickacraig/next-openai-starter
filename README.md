@@ -26,7 +26,7 @@ Make sure that update the `OPENAI_API_KEY=yourApiKey` in the `.env.local` file. 
 
 ## OpenAI API Endpoint
 
-OpenAI's [API route](https://nextjs.org/docs/api-routes/introduction) is lcoated at `src/pages/api/openai.js`.
+OpenAI's [API route](https://nextjs.org/docs/api-routes/introduction) is located at `src/pages/api/openai.js`.
 
 
 
