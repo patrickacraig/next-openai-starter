@@ -1,22 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js OpenAI Starter App
+
+This is a starter kit for integrating [OpenAI's API](https://platform.openai.com/docs/api-reference) into a [Next.js](https://nextjs.org/) project. It is crafted with minimal styling and basic API integration so you can strip it and bring your own libraries to make it your own. Feel free to fork and create something amazing!
+
 
 ## Getting Started
-
-First, run the development server:
+First, fork the repo to your dev environment and install the packages:
+```bash
+npm install
+#or
+yarn
+```
+Then, run the development server:
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
 ```
 
+If you use something besides `yarn`, be sure to delete any other package manager lockfiles. 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Important!
+Make sure that update the `OPENAI_API_KEY=yourApiKey` in the `.env.local` file. You can get an API key by [creating an account with OpenAI](https://platform.openai.com/signup) and then navigating [here](https://platform.openai.com/account/api-keys)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## OpenAI API Endpoint
+
+OpenAI's [API route](https://nextjs.org/docs/api-routes/introduction) is lcoated at `src/pages/api/openai.js`.
+
+
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
@@ -25,9 +37,12 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
-
+### Next.js
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### OpenAI
+- [OpenAI Documentation](https://platform.openai.com/) – learn abou OpenAI's features and API, as well as how to use them. 
+- [OpenAI Examples](https://platform.openai.com/examples) – see what others have already created with OpenAI.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
