@@ -2,6 +2,12 @@
   "name": "next-openai-starter",
   "version": "0.1.0",
   "private": true,
+  "description": "A starter for Next.js with OpenAI",
+  "author": {
+    "name": "Patrick Craig",
+    "url": "https://www.linkedin.com/in/patrickacraig/",
+    "license": "GPL-3.0-only"
+  },
   "scripts": {
     "dev": "DEBUG=app,app:* next dev",
     "build": "next build",
@@ -17,10 +23,5 @@
     "openai": "^3.2.1",
     "react": "18.2.0",
     "react-dom": "18.2.0"
-  },
-  "devDependencies": {
-    "autoprefixer": "^10.4.14",
-    "postcss": "^8.4.21",
-    "tailwindcss": "^3.2.7"
   }
 }
