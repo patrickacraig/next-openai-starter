@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
       <main>
         <h1>Next.js OpenAI Starter App</h1>
-        <p>This is a starter kit for integrating <a target="_blank" href="https://platform.openai.com/docs/api-reference">OpenAI`&apos`s API</a> into a <a target="_blank" href="https://nextjs.org">Next.js</a> project. It is crafted with minimal styling and basic API integration so you can strip it and bring your own libraries to make it your own. Feel free to fork and create something amazing!</p>
+        <p>This is a starter kit for integrating <a target="_blank" href="https://platform.openai.com/docs/api-reference">OpenAI's API</a> into a <a target="_blank" href="https://nextjs.org">Next.js</a> project. It is crafted with minimal styling and basic API integration so you can strip it and bring your own libraries to make it your own. Feel free to fork and create something amazing!</p>
         <OpenAIComponent />
       </main>
     </>

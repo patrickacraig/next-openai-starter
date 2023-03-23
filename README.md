@@ -22,7 +22,7 @@ If you use something besides `yarn`, be sure to delete any other package manager
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## Important!
-Make sure that update the `OPENAI_API_KEY=yourApiKey` in the `.env.local` file. You can get an API key by [creating an account with OpenAI](https://platform.openai.com/signup) and then navigating [here](https://platform.openai.com/account/api-keys)
+Make sure that update the `OPENAI_API_KEY=yourApiKey` in the `.env.example` file, and then change the file name to `.env.local`. You can get an API key by [creating an account with OpenAI](https://platform.openai.com/signup) and then navigating [here](https://platform.openai.com/account/api-keys).
 
 ## OpenAI API Endpoint
 
